@@ -4,7 +4,7 @@ from google import genai
 app = Flask(__name__)
 
 # Configure sua permissão
-client = genai.Client(api_key='SUA_CHAVE_API')
+client = genai.Client(api_key='API_KEY')
 
 # Lista para guardar o histórico (zera se reiniciar o servidor)
 historico_chat = []
