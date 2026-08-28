@@ -20,7 +20,7 @@ def index():
         # Chama a API do Gemini
         response = client.models.generate_content(
             model="gemini-3-flash-preview",
-            contents=(f"{pergunta} - Responda em português.")
+            contents=(pergunta)
         )
         
         # Adiciona a resposta da IA ao histórico
